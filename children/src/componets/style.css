@@ -2,24 +2,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
 
 }
 .father>p{
     display: flex;
-    justify-content: center;
-    background-color: blueviolet;
+    justify-content: space-evenly;
     color: white;
     align-items: center;
     width: 80%;
     text-align: center;
+    flex-wrap: wrap;
 }
 .father>p>span{
-    flex-direction: column;
     text-align: center;
     align-self: center;
     align-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 1px;
+    padding: 3em;
+    font-weight: bold;
+    font-size: 30px;
+
 }
+
 .father>p>span:nth-child(1):hover{
    background-color: white;
    color: blueviolet;
